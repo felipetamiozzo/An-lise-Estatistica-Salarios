@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.ipynb_checkpoints/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Dados
+*.csv
+*.xlsx
+*.json
+# Se o dataset original for muito grande e você quiser excluí-lo do Git, adicione:
+# seu_dataset_original.csv
+
+# Resultados (se você gerar arquivos grandes)
+/data/processed/
+/images/
+/plots/
