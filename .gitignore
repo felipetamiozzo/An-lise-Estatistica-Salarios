@@ -2,7 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
+*.pyds
 .Python/
 env/
 venv/
@@ -14,13 +14,6 @@ venv/
 
 # VS Code
 .vscode/
-
-# Dados
-*.csv
-*.xlsx
-*.json
-# Se o dataset original for muito grande e você quiser excluí-lo do Git, adicione:
-# seu_dataset_original.csv
 
 # Resultados (se você gerar arquivos grandes)
 /data/processed/
